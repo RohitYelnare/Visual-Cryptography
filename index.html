@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>(2,2) VCS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="css/style.css" type="text/css"/>
+  </head>
+  
+  <body>
+    <div class="page">
+      <canvas id="src" width="400" height="300"></canvas>
+      <div class="bounds hidden">
+        <canvas id="share1" width="400" height="300"></canvas>
+        <canvas id="share2" width="400" height="300"></canvas> 
+      </div>
+     
+      <div class="controls">
+        <button class="superimpose hidden">Align Shares</button>
+        <button class="genshares">Generate Shares</button>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+
+    <script src="js/touchpad.js"></script>
+    <script src="js/genshares.js"></script>
+  </body>
+</html>
